@@ -1,0 +1,22 @@
+/*Container*/
+.component-container-fluid {
+  @apply max-w-7xl mx-auto;
+}
+
+/*Sidebar*/
+.component-container-profile {
+  @apply flex items-center gap-3 pb-6 border-b border-white/10;
+}
+
+.component-container-nav {
+  @apply flex flex-col gap-2 py-6 flex-1;
+}
+
+/*Header*/
+.component-container-title {
+  @apply flex flex-col;
+}
+
+.component-container-search {
+  @apply flex items-center gap-4;
+}

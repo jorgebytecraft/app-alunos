@@ -1,13 +1,15 @@
-//Flexbox Container Horizontal
+//Flexbox Container
 export function Header() {
   return (
-    <header className="flex h-16 bg-white border-b border-zinc-200 items-center justify-between px-6 shadow-sm">
-      {/* Esquerda - Título da página */}
-      <div className="flex flex-col">
+    /* Flexbox Container */
+    <header className="area-container-header">
+      {/* Flexbox Componente Esquerda - Título da página */}
+      <div className="component-container-title">
         <h1 className="font-bold text-lg">Dashboard</h1>
         <span className="text-xs text-zinc-500">Bem-vindo de volta, Jorge</span>
       </div>
-      <div className="flex items-center gap-4">
+      {/* Flexbox Componente Direita - Botão de Pesquisa da página */}
+      <div className="component-container-search">
         <input
           placeholder="Buscar aluno..."
           className="
@@ -36,7 +38,7 @@ export function Header() {
             hover:bg-blue-700
           "
         >
-          + Novo Aluno
+          Buscar
         </button>
       </div>
     </header>

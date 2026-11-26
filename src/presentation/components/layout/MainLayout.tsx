@@ -6,13 +6,12 @@ import { Container } from "./Container";
 type LayoutProps = {
   children: ReactNode;
 };
-// Flexbox container Central
 export function MainLayout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen bg-slate-100">
+    <div className="area-layout">
       <Header />
-
-      <div className="flex">
+      {/* Flexbox Container */}
+      <div className="area-container-layout">
         <Sidebar />
 
         <Container>{children}</Container>

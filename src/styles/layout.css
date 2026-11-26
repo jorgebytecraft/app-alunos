@@ -1,0 +1,22 @@
+/*MainLayout*/
+.area-layout {
+  @apply min-h-screen bg-slate-100;
+}
+.area-container-layout {
+  @apply flex flex-row flex-wrap;
+}
+
+/*SideBar*/
+.area-container-sidebar {
+  @apply flex flex-col w-64 min-h-screen bg-zinc-950 text-white p-4 shadow-xl;
+}
+
+/*Header*/
+.area-container-header {
+  @apply flex flex-row h-16 bg-white border-b border-zinc-200 items-center justify-between px-6 shadow-sm;
+}
+
+/*Container*/
+.area-container-container {
+  @apply flex-1 flex-row bg-slate-100 p-6;
+}
